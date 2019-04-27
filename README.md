@@ -15,3 +15,13 @@ Or, extract the following zip in `your_moodle_root/local/` as follows:
     cd your_moodle_root/local/
     wget https://github.com/GuillaumeBlin/moodle-local_uploadpdf/archive/master.zip
     unzip -j master.zip -d uploadpdf
+    
+Configuration
+-----------------
+
+To make the webservice available, go to Site administration / Plugins / Web services
+
+In Built-in service, allow the uploadpdf service using "uploadpdf" as shortname
+
+In Manage tokens, add a token for the ws user for the Uploadpdf service
+
