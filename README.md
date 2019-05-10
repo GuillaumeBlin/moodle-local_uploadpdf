@@ -19,7 +19,7 @@ Or, extract the following zip in `your_moodle_root/local/` as follows:
 Configuration
 -----------------
 
-To make the webservice available, go to Site administration / Plugins / Web services
+To make the webservice available, go to Site administration / Plugins / Web services / External services
 
 In Built-in service, allow the uploadpdf service using "uploadpdf" as shortname
 
