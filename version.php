@@ -12,12 +12,7 @@
 // You should have received a copy of the GNU General Public License
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
-$plugin->version  = 2011101207;   // The (date) version of this module + 2 extra digital for daily versions
-                                  // This version number is displayed into /admin/forms.php
-                                  // TODO: if ever this plugin get branched, the old branch number
-                                  // will not be updated to the current date but just incremented. We will
-                                  // need then a $plugin->release human friendly date. For the moment, we use
-                                  // display this version number with userdate (dev friendly)
+$plugin->version  = 2019101207;  
 $plugin->requires = 2010112400;  // Requires this Moodle version - at least 2.0
 $plugin->component = 'local_uploadpdf';
 $plugin->cron     = 0;
