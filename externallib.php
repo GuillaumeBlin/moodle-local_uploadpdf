@@ -30,7 +30,7 @@ class local_uploadpdf_external extends external_api {
 	$fs = get_file_storage();
 	$cm = get_coursemodule_from_id('resource', $info[1]);
 	$context = context_module::instance($cm->id);
-	if($cm->id!=$înfo[0]){
+	if($cm->id!=$info[0]){
 		return "Wrong CID/RID";
 	}
 	$files = $fs->get_area_files($context->id, 'mod_resource', 'content', 0, 'sortorder DESC, id ASC', false);
